@@ -44,6 +44,10 @@ h2{
 }
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
+body{
+	padding-top: 70px;
+}
+
 .crear-cuenta,
 .form-signin {
   width: 100%;
