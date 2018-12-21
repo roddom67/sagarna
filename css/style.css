@@ -104,6 +104,23 @@ form ul li .row li{
 .listadoContainer article li{
 	font-size:18px;
 }
+.newItemArea{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 200;
+}
+.newItemArea a {
+	display: block;
+	background: var(--dark-gray);
+	font-size:31px;
+	color:#fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align:center;
+}
 
 
 @media (max-width: 575px) {
@@ -119,23 +136,6 @@ form ul li .row li{
 	}
 	.crear-cuenta a{
 		padding: 5px 0;
-	}
-	.newItemArea{
-		position: fixed;
-		bottom: 20px;
-		right: 20px;
-		z-index: 200;
-	}
-	.newItemArea a {
-		display: block;
-		background: var(--dark-gray);
-		font-size:31px;
-		color:#fff;
-		border-radius: 50%;
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
-		text-align:center;
 	}
 }
 
