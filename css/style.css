@@ -128,6 +128,13 @@ form ul li .row li{
 
 
 @media (max-width: 575px) {
+	body.home{
+		padding-top: 20px;
+	}
+	.home .spanImg{
+		width:75%;
+		margin: 0 auto;
+	}
 	.pd-0{
 		padding: 0 !important;
 	}
@@ -161,6 +168,9 @@ form ul li .row li{
 @media (min-width: 992px) {
 	.home form .spanImg{
 		margin: 0 25%;
+	}
+	.listadoContainer .text-right{
+		text-align: left !important;
 	}
 }
 
