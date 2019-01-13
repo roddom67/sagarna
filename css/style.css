@@ -141,6 +141,9 @@ footer a{
 	color: #fff;
 	display:block;
 }
+footer a.active{
+	color:#0056b3;
+}
 footer a i{
 	padding-right: 5px;
 }
@@ -207,6 +210,9 @@ footer a i{
 	}
 	.listadoContainer .text-right{
 		text-align: left !important;
+	}
+	footer ul{
+		justify-content:center;
 	}
 }
 
