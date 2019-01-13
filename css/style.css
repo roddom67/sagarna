@@ -110,7 +110,7 @@ form ul li .row li{
 }
 .newItemArea{
 	position: fixed;
-	bottom: 20px;
+	bottom: 50px;
 	right: 20px;
 	z-index: 200;
 }
@@ -125,7 +125,25 @@ form ul li .row li{
 	line-height: 50px;
 	text-align:center;
 }
-
+footer{
+	background: var(--dark-gray);
+	color: #fff;
+	padding:10px;
+}
+footer ul{
+	display:flex;
+	flex-wrap:nowrap;
+}
+footer ul li{
+	padding: 0 10px;
+}
+footer a{
+	color: #fff;
+	display:block;
+}
+footer a i{
+	padding-right: 5px;
+}
 
 @media (max-width: 575px) {
 	body.home{
@@ -147,6 +165,24 @@ form ul li .row li{
 	}
 	.crear-cuenta a{
 		padding: 5px 0;
+	}
+	.newItemArea{
+		bottom:70px;
+	}
+	.listadoContainer > ul{
+		margin-bottom: 115px;
+	}
+	footer{
+		position:fixed;
+		bottom: 0;
+		z-index: 9999;
+	}
+	footer a{
+		text-align:center;
+		font-size:14px;
+	}
+	footer a i{
+		font-size: 16px;
 	}
 }
 
