@@ -95,6 +95,7 @@ form ul li .row li{
 
 .listadoContainer > ul{
 	padding:20px 0;
+	margin-bottom: 115px;
 }
 
 .listadoContainer > ul > li{
@@ -129,7 +130,12 @@ footer{
 	background: var(--dark-gray);
 	color: #fff;
 	padding:10px;
+	position:fixed;
+	bottom: 0;
+	z-index: 9999;
+	width: 100%;
 }
+
 footer ul{
 	display:flex;
 	flex-wrap:nowrap;
@@ -171,14 +177,6 @@ footer a i{
 	}
 	.newItemArea{
 		bottom:70px;
-	}
-	.listadoContainer > ul{
-		margin-bottom: 115px;
-	}
-	footer{
-		position:fixed;
-		bottom: 0;
-		z-index: 9999;
 	}
 	footer a{
 		text-align:center;
